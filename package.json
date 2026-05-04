@@ -1,0 +1,31 @@
+{
+  "name": "vantarius",
+  "version": "1.0.0",
+  "description": "Find them first. Reach them right. — AI-powered LinkedIn outreach engine.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "setup": "node setup.js",
+    "dry-run": "node src/main.js --dry-run",
+    "j0": "node src/main.js --stage J0",
+    "j3": "node src/main.js --stage J3",
+    "j7": "node src/main.js --stage J7",
+    "j10": "node src/main.js --stage J10"
+  },
+  "keywords": ["linkedin", "outreach", "prospecting", "crm", "ollama", "puppeteer", "b2b"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "js-yaml": "^4.1.0",
+    "ollama": "^0.6.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^29.0.0"
+  }
+}
