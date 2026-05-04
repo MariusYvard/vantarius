@@ -2,7 +2,7 @@
 
 **Find them first. Reach them right.**
 
-Vantarius is a local LinkedIn outreach engine that reads your Excel CRM and runs a structured multi-stage prospecting sequence — powered by a local LLM (Ollama). No API keys. No cloud. Messages written by AI, sent by you (automated).
+Vantarius is a local LinkedIn outreach engine that reads your Excel CRM and runs a structured multi-stage prospecting sequence, powered by a local LLM (Ollama). No API keys. No cloud. Messages written by AI, sent by you (automated).
 
 Part of the [Marius Intelligence Suite](#marius-intelligence-suite).
 
