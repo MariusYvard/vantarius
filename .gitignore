@@ -1,0 +1,14 @@
+node_modules/
+chrome-session/
+*.xlsx
+*.xls
+*.csv
+.dedup.json
+.checkpoint.json
+logs/
+debug/
+evidence/
+.env
+.DS_Store
+.vscode/
+*.swp
