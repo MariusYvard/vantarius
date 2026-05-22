@@ -20,8 +20,9 @@
 
 'use strict';
 
-const puppeteer     = require('puppeteer-extra');
-const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const { addExtra }       = require('puppeteer-extra');
+const rebrowserPuppeteer = require('rebrowser-puppeteer');
+const puppeteer          = addExtra(rebrowserPuppeteer);
 const ExcelJS       = require('exceljs');
 const path          = require('path');
 
@@ -31,8 +32,6 @@ const { atomicWriteCRM, validateCRMIntegrity } = require('./crm_writer');
 const { alreadyProcessedToday, markAsProcessed, getTodayCount } = require('./dedup_guard');
 const { polishMessage } = require('./llm_polisher');
 const { sendConnectionRequest, sendDirectMessage } = require('./linkedin_sender');
-
-puppeteer.use(StealthPlugin());
 
 // ── CLI flags ─────────────────────────────────────────────────────────────────
 
