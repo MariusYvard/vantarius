@@ -1,4 +1,13 @@
-# Vantarius
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/banner-dark.svg">
+    <img src="docs/banner.svg" alt="Vantarius, Find them first. Reach them right." width="100%">
+  </picture>
+</p>
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-102857)](#license)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-215876)](package.json)
+[![Sequence](https://img.shields.io/badge/sequence-J0%20to%20J10-D97F30)](#what-it-does)
 
 **Find them first. Reach them right.**
 
@@ -75,6 +84,9 @@ Vantarius respects daily quotas, working hours, and deduplication automatically.
 
 Vantarius reads from (and writes back to) your Excel file. Minimum columns:
 
+<details>
+<summary><b>Column table</b></summary>
+
 | Column | Field | Description |
 |--------|-------|-------------|
 | A | Company | Company name |
@@ -83,6 +95,8 @@ Vantarius reads from (and writes back to) your Excel file. Minimum columns:
 | G | LinkedIn URL | Profile URL |
 | H | Signal | Tension signal (filled by AxioMariuS) |
 | I | Date contact | Date J0 was sent |
+
+</details>
 
 Exact column positions are configured in `config.yaml`.
 
